@@ -697,7 +697,7 @@
     <!-- v2017 -->
   </global>
   <project>
-    <phrase id="footertext" value="&amp;copy;2019 e.World Technology Ltd. All rights reserved." />
+    <phrase id="footertext" value="&amp;copy;2019 The App Store. All rights reserved." />
     <menu id="1">
       <phrase id="menutext" value="Assignments (Lead-&gt;Team)" />
     </menu>
@@ -747,7 +747,7 @@
       <phrase id="menutext" value="View 2" />
     </menu>
     <menu id="17">
-      <phrase id="menutext" value="Worker Attendance Table" />
+      <phrase id="menutext" value="Worker Attendance " />
     </menu>
     <menu id="18">
       <phrase id="menutext" value="userlevelpermissions" />

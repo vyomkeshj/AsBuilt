@@ -133,7 +133,7 @@ ew.vars = <?php echo JsonEncode($CLIENT_VAR) ?>;
 	<aside class="<?php echo $SIDEBAR_CLASS ?>">
 		<!-- Brand Logo //** Note: Only licensed users are allowed to change the logo ** -->
 		<a href="#" class="brand-link">
-			<span class="brand-text">PHPMaker 2019</span>
+			<span class="brand-text">AsBuilt Manager</span>
 		</a>
 		<!-- Sidebar -->
 		<div class="sidebar">

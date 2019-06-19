@@ -37,7 +37,7 @@ define(PROJECT_NAMESPACE . "PATH_DELIMITER", ((IS_WINDOWS) ? "\\" : "/")); // Ph
 define(PROJECT_NAMESPACE . "UNFORMAT_YEAR", 50); // Unformat year
 define(PROJECT_NAMESPACE . "PROJECT_NAME", "ASbuiltProject"); // Project name
 define(PROJECT_NAMESPACE . "CONFIG_FILE_FOLDER", PROJECT_NAME); // Config file name
-define(PROJECT_NAMESPACE . "RANDOM_KEY", 'iDwdyuUWVdNmoNfx'); // Random key for encryption
+define(PROJECT_NAMESPACE . "RANDOM_KEY", 'SXtCG7kL9f74EUHf'); // Random key for encryption
 define(PROJECT_NAMESPACE . "ENCRYPTION_KEY", ''); // Encryption key for data protection
 define(PROJECT_NAMESPACE . "PROJECT_STYLESHEET_FILENAME", "phpcss/ASbuiltProject.css"); // Project stylesheet file name
 define(PROJECT_NAMESPACE . "PROJECT_CHARSET", "utf-8"); // Project charset
@@ -282,8 +282,8 @@ define(PROJECT_NAMESPACE . "AUDIT_TRAIL_FIELD_NAME_NEWVALUE", ""); // Audit trai
 
 // Security
 define(PROJECT_NAMESPACE . "ENCRYPTION_ENABLED", FALSE); // Encryption enabled
-define(PROJECT_NAMESPACE . "ADMIN_USER_NAME", ""); // Administrator user name
-define(PROJECT_NAMESPACE . "ADMIN_PASSWORD", ""); // Administrator password
+define(PROJECT_NAMESPACE . "ADMIN_USER_NAME", "Admin"); // Administrator user name
+define(PROJECT_NAMESPACE . "ADMIN_PASSWORD", "Admin"); // Administrator password
 define(PROJECT_NAMESPACE . "USE_CUSTOM_LOGIN", TRUE); // Use custom login
 define(PROJECT_NAMESPACE . "ALLOW_LOGIN_BY_URL", FALSE); // Allow login by URL
 define(PROJECT_NAMESPACE . "ALLOW_LOGIN_BY_SESSION", FALSE); // Allow login by session variables

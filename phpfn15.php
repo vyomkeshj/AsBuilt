@@ -6235,6 +6235,34 @@ class AdvancedSecurity
 			$this->setCurrentUserName($usr); // Load user name
 		}
 
+		// Check hard coded admin first
+		if (!$valid) {
+			$adminUserName = ADMIN_USER_NAME;
+			$adminPassword = ADMIN_PASSWORD;
+			if (ENCRYPTION_ENABLED) {
+				try {
+					$adminUserName = PhpDecrypt(ADMIN_USER_NAME, ENCRYPTION_KEY);
+					$adminPassword = PhpDecrypt(ADMIN_PASSWORD, ENCRYPTION_KEY);
+				} catch (\Defuse\Crypto\Exception\WrongKeyOrModifiedCiphertextException $e) {
+					$adminUserName = ADMIN_USER_NAME;
+					$adminPassword = ADMIN_PASSWORD;
+				}
+			}
+			if (CASE_SENSITIVE_PASSWORD) {
+				$valid = (!$customValid && $adminUserName === $usr && $adminPassword === $pwd) ||
+					($customValid && $adminUserName === $usr);
+			} else {
+				$valid = (!$customValid && SameText($adminUserName, $usr) && SameText($adminPassword, $pwd)) ||
+					($customValid && SameText($adminUserName, $usr));
+			}
+			if ($valid) {
+				$this->_isLoggedIn = TRUE;
+				$_SESSION[SESSION_STATUS] = "login";
+				$_SESSION[SESSION_SYS_ADMIN] = 1; // System Administrator
+				$this->setCurrentUserName($Language->phrase("UserAdministrator")); // Load user name
+			}
+		}
+
 		// Check other users
 		if (!$valid) {
 			if (!is_numeric($usr)) return $customValid;
