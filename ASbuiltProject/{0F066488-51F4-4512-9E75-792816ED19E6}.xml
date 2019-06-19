@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2019/06/19" author="e.World Technology Ltd.">
+  <project id="{0F066488-51F4-4512-9E75-792816ED19E6}" file="C:\Users\Daddy\Documents\PHPMaker\Projects\ASbuiltProject.pmp" name="ASbuiltProject" product="PHPMaker" version="15.0" datetime="2019/06/19 11:58:18" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="AssignmentTable" name="AssignmentTable" caption="Assignments (Lead-&gt;Team)" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Cart_View" name="Cart View" caption="Cart View" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="CartTable" name="CartTable" caption="Items Used" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="CustomerTable" name="CustomerTable" caption="Customers" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="JobSessionTable" name="JobSessionTable" caption="Job Session Table" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="JobWorkerTable" name="JobWorkerTable" caption="Job Worker Table" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="LeadFileAssociation" name="LeadFileAssociation" caption="Work Files" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="LeadTable" name="LeadTable" caption="Leads" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="LeadTypeLookup" name="LeadTypeLookup" caption="Types Of Lead" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="ProductTable" name="ProductTable" caption="Inventory" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Team_Member_View" name="Team Member View" caption="Team Member View" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="TeamMemberTable" name="TeamMemberTable" caption="Team Members" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="TeamTable" name="TeamTable" caption="Teams" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="UserAuthTable" name="UserAuthTable" caption="User Auth Table" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="View1" name="View1" caption="View 1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="View2" name="View2" caption="View 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="WorkerAttendanceTable" name="WorkerAttendanceTable" caption="Worker Attendance Table" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="userlevelpermissions" name="userlevelpermissions" caption="userlevelpermissions" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="userlevels" name="userlevels" caption="userlevels" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+  </project>
+</configuration>
